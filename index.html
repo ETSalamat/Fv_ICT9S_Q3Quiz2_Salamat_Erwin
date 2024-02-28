@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<title>Q3 Quiz 2</title>
+	<style>
+		body{
+			background-image: url('https://images7.alphacoders.com/943/943484.jpg');
+			background-repeat: no-repeat;
+			background-size: 3000px;
+			background-position: center;
+
+		}
+		p{
+			font-family: Agency FB;
+			font-size: 20px;
+
+		}
+		h1,h4{
+			font-family: Agency FB;
+		}
+		.container{
+			display:grid;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		#SM1,#SM2,#SM3{
+			width: 150px;
+		}
+		#titleimage{
+			width: 400px;
+		}
+		#references{
+			margin: auto;
+			border: solid;
+			border-radius: 5px;
+			border-color:dodgerblue ;
+			background-color:#DC3545;
+			width: 100px;
+			height: 30px;
+		}
+		#box{
+			border: white;
+			border-style: none none solid none;
+		}
+		#ratingbar{
+			border: indianred;
+			border-style: double none none none;
+		}
+		#movierows{
+			border: dimgrey 2px;
+			border-style: solid none;
+		}
+		.navbar{
+			padding: px;
+			font-family: Courier New;
+			font-size: 20px;
+			height:100px;
+		}
+		#topnav{
+			width: px;
+		}
+		.nav-link{
+			color: white;
+			font-size: 20px;
+		}
+		#brand{
+			width: 150px;
+		}
+	</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark">
+<a class="navbar-brand" href="g"><img src="https://static.wikia.nocookie.net/marvelcomicsfanon/images/b/bc/SPIDERMAN_LOGO.png" id="brand"></a>
+
+<div id="topnav">
+	<div class="navbar-nav">
+		<ul class="nav-item">
+			<a class="nav-link" href="g">Home</a>
+		</ul>
+		<ul class="nav-item">
+			<a class="nav-link" href="https://imdb.com/list/ls029081909/">Review</a>
+		</ul>
+		<ul class="nav-item">
+			<a class="nav-link" href="g">Form</a>
+		</ul>
+		<ul class="nav-item">
+			<a class="nav-link" href="g">Contact Us</a>
+		</ul>
+	</div>
+</div>
+</nav>
+
+<br>
+<div id="box">
+<br>
+	<center>
+		<h1>Movie Review</h1>
+	</center>
+<br>
+<div class="container">
+	<div class="row bg-dark text-white" style="height: 50px;">
+			<div class="col-md-2"></div>
+			<div class="col-md-3"><h4>Synopsis</h4></div>
+			<div class="col-md-2"><h4>Description</h4></div>
+			<div class="col-md-3"><h4>Reviews</h4></div>
+	</div>
+	<div class="row text-white" id="movierows">
+					<div class="col-md-2">
+						<br><br>
+						<img id="SM1" src="https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_.jpg">
+					</div>
+					<div class="col-md-3 bg-danger">
+						<p>"Spider-Man" focuses on the story of student Peter Parker, who gets bitten by a genetically-altered spider and gains super strength and spider-like abilities. He uses his powers to fight crime but he faces consequences and sacrifices along the way.</p>
+					</div>
+					<div class="col-md-2 bg-danger">
+						<p><b>Spider-Man</b><br>
+						<b>Director:</b> Sam Raimi
+							<br><br>
+						<b>Casts:</b> Tobey Maguire, Kirsten Dunst, Willem Dafoe, James Franco
+							<br><br>
+						<b>Genre:</b> Action, Superhero
+							<br><br>
+						<b>Runtime:</b> <span style="text-decoration: underline;">121 Minutes</span></p>
+					</div>
+					<div class="col-md-3 bg-danger">
+						<p><i>"At its best, Spider-Man takes the adolescent yearning at the heart of most superhero sagas and gives it a lovely swing."</i><br> -David Edelstein
+							<br><br>
+						<i>"Spider-Man is an almost-perfect extension of the experience of reading comic-book adventures."</i> <br>-Jack Matthews
+						</p>
+					</div>
+
+					<div class="col-md-2 text-dark"><br><br><br><br><br><br><strong>Rating: <span class="text-primary">8</span></strong><br><span id="ratingbar">⭐⭐⭐⭐⭐</span><br>⭐⭐⭐
+
+						<div class="form-check text-white">
+							<br>
+							<label class="form-check-label" for="yes1"> 
+						 		<input type="radio" name="yes1" value="yes1" class="form-check-input"> Agree 👍
+							<br>
+						 		<input type="radio" name="yes1" value="yes1" class="form-check-input"> Disagree 👎
+							</label> 
+						</div>
+					</div>
+				
+	</div>
+	<div class="row text-white" id="movierows">
+					<div class="col-md-2">
+						<br><br>
+						<img id="SM2" src="https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg">
+					</div>
+					<div class="col-md-3 bg-primary">
+						<p>After a failed experiment, Dr. Otto Octavius loses control of the metal tentacles attached to his body and becomes Dr. Octopus. Spider-Man is blamed for the failure and Dr. Octopus claims to get his revenge. Meanwhile, Peter Parker deals with his life struggles and doubt, which started making his powers fade away.</p>
+					</div>
+					<div class="col-md-2 bg-danger">
+						<p><b>Spider-Man 2</b><br>
+						<b>Director:</b> Sam Raimi
+							<br><br>
+						<b>Casts:</b> Tobey Maguire, Kirsten Dunst, Alfred Molina, James Franco
+							<br><br>
+						<b>Genre:</b> Action, Superhero
+							<br><br>
+						<b>Runtime:</b> <span style="text-decoration: underline;">127 Minutes</span></p>
+					</div>
+					<div class="col-md-3 bg-primary">
+						<p><i>"A sequel that not only outstrips its predecessor but has a perversity and quick-wittedness that hardly seem to belong in a comic-book movie."</i> <br>-Anthony Quinn
+							<br><br>
+						<i>"Spider-Man 2 is better than just dark, it's touched by authentic teenage paranoia and neurosis."</i> <br>-Jonathan Romney
+						</p>
+					</div>	
+
+					<div class="col-md-2 text-dark"><br><br><br><br><br><br><strong>Rating: <span class="text-success">10</span></strong><br><span id="ratingbar">⭐⭐⭐⭐⭐</span><br>⭐⭐⭐⭐⭐
+
+						<div class="form-check text-white">
+							<br>
+							<label class="form-check-label" for="yes2"> 
+						 		<input type="radio" name="yes2" value="yes2" class="form-check-input"> Agree 👍
+							<br>
+						 		<input type="radio" name="yes2" value="yes2" class="form-check-input"> Disagree 👎
+							</label> 
+						</div>
+					</div>	
+	</div>
+	<div class="row text-white" id="movierows">		
+					<div class="col-md-2">
+						<br><br>
+						<img id="SM3" src="https://m.media-amazon.com/images/M/MV5BYTk3MDljOWQtNGI2My00OTEzLTlhYjQtOTQ4ODM2MzUwY2IwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1000_.jpg">
+					</div>
+					<div class="col-md-3 bg-primary">
+						<p>While Peter Parker and MJ's relationship starts to gets better, the alien symbiote, Venom, takes over Peter's life. The Spider-Man suit turns black and he gains enhanced strength, but it also brings out the dark side of his personality. His only choice is to remove and destroy it while he also deals with two villains.</p>
+					</div>
+					<div class="col-md-2 bg-danger">
+						<p><b>Spider-Man 3</b><br>
+						<b>Director:</b> Sam Raimi
+							<br><br>
+						<b>Casts:</b> Tobey Maguire, Kirsten Dunst, Topher Grace, Thomas Haden Church, James Franco
+							<br><br>
+						<b>Genre:</b> Action, Superhero
+							<br><br>
+						<b>Runtime:</b> <span style="text-decoration: underline;">139 Minutes</span></p>
+					</div>
+					<div class="col-md-3 bg-primary">
+						<p><i>"The breeziness that was so refreshing in the other episodes has been largely replaced by the kind of misery and moping that we can get from any old superhero."</i><br> -Ryan Gilbey
+							<br><br>
+						<i>"The film doesn't teem; it just seems cluttered - a collection of scenes, and occasionally great visuals or gags, strung together by an inadequate plot."</i><br> -Sukdev Sandhu
+						</p>
+					</div>
+
+					<div class="col-md-2 text-dark"><br><br><br><br><br><br><strong>Rating: <span class="text-warning">6</span></strong><br><span id="ratingbar">⭐⭐⭐⭐⭐</span><br>⭐
+
+						<div class="form-check text-white">
+							<br>
+							<label class="form-check-label" for="yes3"> 
+						 		<input type="radio" name="yes3" value="yes3" class="form-check-input"> Agree 👍
+							<br>
+						 		<input type="radio" name="yes3" value="yes3" class="form-check-input"> Disagree 👎
+							</label> 
+						</div>
+					</div>
+		</div>	
+</div>
+<br><br>
+</div>
+
+<br>
+<center><textarea style="width: 750px; height: 100px;" class="form-control" id="comment" placeholder="insert your review here"></textarea>
+	<br>
+<button type="submit" class="searchsub btn-success">Submit</button></center>
+
+<br>
+<div id="references"><p style="text-align: center;"><a href="https://docs.google.com/document/d/15M5hZEkepnWTuDeqlcrjyjSdwkTHQsDLF4MBclD45v4/edit?usp=sharing">References</a></p></div>
+
+</body>
+</html>
